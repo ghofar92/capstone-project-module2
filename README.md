@@ -1,6 +1,4 @@
-# 🚍 Analisis Data Perjalanan Penumpang Transjakarta
-
-## 📖 Latar Belakang
+# Executive Summary
 Transjakarta merupakan salah satu moda transportasi umum utama di Jakarta yang digunakan oleh jutaan penumpang setiap harinya. 
 Dengan banyaknya jumlah perjalanan dan rute yang tersedia, manajemen Transjakarta menghadapi tantangan besar dalam memastikan layanan yang efisien dan memadai.
 
@@ -13,7 +11,7 @@ Dengan melakukan analisis, Transjakarta dapat mengambil keputusan strategis untu
 
 ---
 
-## ❓ Permasalahan / Research Question
+## Permasalahan / Research Question
 - Bagaimana distribusi perjalanan penumpang berdasarkan waktu (jam sibuk)?
 - Koridor dan halte mana yang paling banyak digunakan penumpang?
 - Berapa lama rata-rata waktu perjalanan penumpang?
@@ -22,7 +20,7 @@ Dengan melakukan analisis, Transjakarta dapat mengambil keputusan strategis untu
 
 ---
 
-## 📂 Dataset
+## Dataset
 Dataset ini berisi informasi transaksi perjalanan penumpang Transjakarta.
 Terdapat **22 kolom** di dalam dataset `Transjakarta.csv`:
 - `transID` : ID unik untuk setiap transaksi.
@@ -44,7 +42,7 @@ Terdapat **22 kolom** di dalam dataset `Transjakarta.csv`:
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 - Python 3.x
 - Pandas
 - Matplotlib
@@ -53,7 +51,7 @@ Terdapat **22 kolom** di dalam dataset `Transjakarta.csv`:
 
 ---
 
-## 📊 Visualisasi & Analisis
+## Visualisasi & Analisis
 - **Boxplot** → Untuk mendeteksi outlier pada kolom `payAmount`.
 - **Bar Chart** → Untuk menemukan 10 halte dan koridor dengan jumlah perjalanan tertinggi.
 - **Distribusi Waktu** → Untuk melihat pola perjalanan berdasarkan jam.
