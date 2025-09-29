@@ -41,7 +41,7 @@ Terdapat **22 kolom** di dalam dataset `Transjakarta.csv`:
 - `payAmount` : Jumlah pembayaran perjalanan.
 
 
-## Analisis Data Perjalanan Transjakarta 2025
+## Analisis Data Perjalanan Transjakarta 
 
 - Jam sibuk: pagi (05:00–09:00) & sore (16:00–21:00).
 - Koridor terpadat: Pulo Gadung – Monas.
