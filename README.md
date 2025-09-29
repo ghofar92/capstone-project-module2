@@ -9,7 +9,7 @@ Tanpa analisis pola perjalanan penumpang yang memadai, Transjakarta berisiko men
 
 Dengan melakukan analisis, Transjakarta dapat mengambil keputusan strategis untuk menambah armada di jam sibuk, mengoptimalkan jadwal, serta meningkatkan kualitas layanan dan kepuasan penumpang.
 
----
+
 
 ## Permasalahan / Research Question
 - Bagaimana distribusi perjalanan penumpang berdasarkan waktu (jam sibuk)?
@@ -18,7 +18,7 @@ Dengan melakukan analisis, Transjakarta dapat mengambil keputusan strategis untu
 - Bagaimana distribusi penumpang berdasarkan kategori pembayaran (gratis atau berbayar)?
 - Apakah ada perbedaan pola perjalanan berdasarkan jenis kelamin atau tahun lahir pelanggan?
 
----
+
 
 ## Dataset
 Dataset ini berisi informasi transaksi perjalanan penumpang Transjakarta.
@@ -40,7 +40,25 @@ Terdapat **22 kolom** di dalam dataset `Transjakarta.csv`:
 - `tapOutTime` : Waktu pelanggan melakukan tap out.
 - `payAmount` : Jumlah pembayaran perjalanan.
 
----
+
+## Analisis Data Perjalanan Transjakarta 2025
+
+- Jam sibuk: pagi (05:00–09:00) & sore (16:00–21:00).
+- Koridor terpadat: Pulo Gadung – Monas.
+- Halte ramai: Garuda Taman Mini & Penjaringan.
+- Durasi perjalanan: beberapa koridor lama karena rute panjang/kemacetan.
+- Pembayaran: mayoritas tercatat, sebagian gratis/tidak tercatat (perlu investigasi).
+- Gender: perempuan sedikit lebih banyak dari laki-laki.
+- Usia: dominan 18–45 tahun.
+
+## Rekomendasi
+
+- Tambah armada & opsi bus ekspres di jam sibuk/koridor padat.
+- Optimasi halte ramai dengan feeder & alur penumpang.
+- Evaluasi kemacetan untuk koridor dengan durasi panjang.
+- Perbaiki sistem e-ticketing untuk meminimalkan data hilang.
+- Sediakan fasilitas ramah gender & keamanan malam hari.
+- Program loyalitas untuk usia produktif, edukasi digital untuk usia >45 tahun.
 
 ## Teknologi yang Digunakan
 - Python 3.x
@@ -49,7 +67,7 @@ Terdapat **22 kolom** di dalam dataset `Transjakarta.csv`:
 - Seaborn
 - Jupyter Notebook
 
----
+
 
 ## Visualisasi & Analisis
 - **Boxplot** → Untuk mendeteksi outlier pada kolom `payAmount`.
