@@ -45,7 +45,7 @@ Terdapat **22 kolom** di dalam dataset `Transjakarta.csv`:
 
 - Jam sibuk: pagi (05:00–09:00) & sore (16:00–21:00).
 - Koridor terpadat: Pulo Gadung – Monas.
-- Halte ramai: Garuda Taman Mini & Penjaringan.
+- Halte ramai: Penjaringan & Garuda Taman Mini.
 - Durasi perjalanan: beberapa koridor lama karena rute panjang/kemacetan.
 - Pembayaran: mayoritas tercatat, sebagian gratis/tidak tercatat (perlu investigasi).
 - Gender: perempuan sedikit lebih banyak dari laki-laki.
